@@ -1,7 +1,6 @@
 # flutter responsive clock
 
 ![screenshot](landscape.png)
-[[https://github.com/Mamun361054/flutter_responsive_clock/screenshot/portrait.png]]
 
 A new Flutter application.
 
