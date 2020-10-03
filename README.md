@@ -2,6 +2,8 @@
 
 ![screenshot](landscape.png)
 
+<img src="screenshot/portrait.png"/>
+
 A new Flutter application.
 
 ## Getting Started
