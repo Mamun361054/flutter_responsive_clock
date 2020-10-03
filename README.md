@@ -4,7 +4,7 @@
 
 <img src="screenshot/landscape.png"/>
 
-A new Flutter application.
+A responsive flutter application
 
 ## Getting Started
 
