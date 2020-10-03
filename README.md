@@ -1,5 +1,7 @@
 # flutter responsive clock
 
+![Screenshot](landscape.png)
+
 A new Flutter application.
 
 ## Getting Started
