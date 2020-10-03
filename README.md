@@ -1,4 +1,4 @@
-# flutter_clock
+# flutter responsive clock
 
 A new Flutter application.
 
