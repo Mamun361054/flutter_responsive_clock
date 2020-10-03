@@ -1,8 +1,8 @@
 # flutter responsive clock
 
-![screenshot](landscape.png)
-
 <img src="screenshot/portrait.png"/>
+
+<img src="screenshot/landscape.png"/>
 
 A new Flutter application.
 
