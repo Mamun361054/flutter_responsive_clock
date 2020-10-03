@@ -1,4 +1,4 @@
-# flutter responsive clock
+# Flutter Responsive Clock
 
 <img src="screenshot/portrait.png"/>
 
