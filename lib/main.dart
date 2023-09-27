@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_clock/models/theme_provider.dart';
 import 'package:flutter_clock/screens/home_screen.dart';
 import 'package:flutter_clock/size_config_two.dart';
 import 'package:flutter_clock/theme.dart';
 import 'package:provider/provider.dart';
+
+import 'models/theme_provider.dart';
 
 void main() {
   runApp(MyApp());

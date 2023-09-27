@@ -36,13 +36,13 @@ class _TimeInHourAndMinuteState extends State<TimeInHourAndMinute> {
       children: <Widget>[
         Text(
           '${_timeOfDay.hourOfPeriod}:${_timeOfDay.minute}',
-          style: Theme.of(context).textTheme.headline1.copyWith(fontSize: SizeConfigTwo.isPortrait ? SizeConfigTwo.blocHeight * 5:SizeConfigTwo.blocHeight * 3),
+          style: Theme.of(context).textTheme.displayLarge?.copyWith(fontSize: SizeConfigTwo.isPortrait ? SizeConfigTwo.blocHeight * 5:SizeConfigTwo.blocHeight * 3),
         ),
         SizedBox(width: 5.0,),
         RotatedBox(quarterTurns: 3,
         child: Text(
           _period,
-          style: Theme.of(context).textTheme.bodyText1.copyWith(fontSize: SizeConfigTwo.isPortrait ? SizeConfigTwo.blocHeight * 2.5:SizeConfigTwo.blocHeight * 1.5),
+          style: Theme.of(context).textTheme.bodyLarge?.copyWith(fontSize: SizeConfigTwo.isPortrait ? SizeConfigTwo.blocHeight * 2.5:SizeConfigTwo.blocHeight * 1.5),
         ),
         )
       ],
