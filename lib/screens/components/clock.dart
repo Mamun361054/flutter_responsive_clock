@@ -39,7 +39,7 @@ class _ClockState extends State<Clock> {
             width: SizeConfigTwo.isPortrait ? SizeConfigTwo.blockWidth * 80:SizeConfigTwo.blockWidth * 40,
               height: SizeConfigTwo.isPortrait ?SizeConfigTwo.blocHeight * 50:SizeConfigTwo.blocHeight * 20,
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.surface,
+                color: Colors.white,
                 shape: BoxShape.circle,
                 boxShadow: [
                   BoxShadow(
@@ -58,7 +58,7 @@ class _ClockState extends State<Clock> {
             ),
         ),
         Positioned(
-          top: 50.0,
+          top: 80.0,
           left: 0.0,
           right: 0.0,
           child: Consumer<ThemeModel>(

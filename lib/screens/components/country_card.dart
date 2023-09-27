@@ -24,7 +24,7 @@ class CountryCard extends StatelessWidget {
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(10.0),
               border: Border.all(
-                color: Theme.of(context).primaryIconTheme.color,
+                color: Theme.of(context).primaryIconTheme.color!,
               )),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -33,8 +33,8 @@ class CountryCard extends StatelessWidget {
                 country,
                 style: Theme.of(context)
                     .textTheme
-                    .headline4
-                    .copyWith(fontSize: SizeConfigTwo.isPortrait ? SizeConfigTwo.blocHeight * 2.5:SizeConfigTwo.blocHeight * 1.5),
+                    .headlineMedium
+                    ?.copyWith(fontSize: SizeConfigTwo.isPortrait ? SizeConfigTwo.blocHeight * 2.5:SizeConfigTwo.blocHeight * 1.5),
               ),
               SizedBox(
                 height: 5.0,
@@ -46,12 +46,12 @@ class CountryCard extends StatelessWidget {
                   SvgPicture.asset(
                     iconSrc,
                     width: SizeConfigTwo.isPortrait ? SizeConfigTwo.blocHeight * 4:SizeConfigTwo.blocHeight * 2,
-                    color: Theme.of(context).accentIconTheme.color,
+                    // color: Theme.of(context).actionIconTheme,
                   ),
                   Spacer(),
                   Text(
                     time,
-                    style: Theme.of(context).textTheme.headline4.copyWith(fontSize: SizeConfigTwo.isPortrait ? SizeConfigTwo.blocHeight * 5:SizeConfigTwo.blocHeight * 3),
+                    style: Theme.of(context).textTheme.headlineMedium?.copyWith(fontSize: SizeConfigTwo.isPortrait ? SizeConfigTwo.blocHeight * 5:SizeConfigTwo.blocHeight * 3),
                   ),
                   RotatedBox(
                     quarterTurns: 3,
