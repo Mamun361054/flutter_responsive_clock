@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_clock/screens/components/clock.dart';
 import 'package:flutter_clock/screens/components/time_in_hour_and_minute.dart';
 
+import 'clock.dart';
 import 'country_card.dart';
 class Body extends StatelessWidget {
   @override
@@ -11,7 +11,7 @@ class Body extends StatelessWidget {
           width: double.infinity,
           child: Column(
             children: <Widget>[
-              Text('Newport Beach, USA | PST',style: Theme.of(context).textTheme.bodyText1,),
+              Text('Newport Beach, USA | PST',style: Theme.of(context).textTheme.bodyLarge,),
               TimeInHourAndMinute(),
               Spacer(),
               Clock(),
